@@ -9,7 +9,7 @@ module.exports = Ferdi => {
     const selector = document.querySelector(
       '.subscriptions-feed .app-navigation-entry-utils-counter',
     );
-    const direct = selector ? Ferdi.safeParseInt(selector.textContent) : 0;
+    const direct = selector ? Ferdi.safeParseInt(selector.innerText) : 0;
 
     Ferdi.setBadge(direct);
   };

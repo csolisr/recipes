@@ -1,13 +1,15 @@
 {
   "id": "nextcloud-news",
   "name": "Nextcloud News",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/csolisr/recipes/tree/master/recipes/nextcloud-news/",
   "config": {
     "hasNotificationSound": true,
     "hasIndirectMessages": false,
-    "hasCustomUrl": true,
-    "serviceURL": "https://{nextcloud}/apps/news/"
+    "hasTeamId": true,
+    "urlInputPrefix": "https://",
+    "urlInputSuffix": "/apps/news/",
+    "serviceURL": "https://{teamId}/apps/news/"
   }
 }
