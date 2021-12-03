@@ -6,7 +6,6 @@
   "repository": "https://github.com/csolisr/recipes/tree/master/recipes/nextcloud-news/",
   "config": {
     "hasNotificationSound": true,
-    "hasIndirectMessages": false,
     "hasTeamId": true,
     "urlInputPrefix": "https://",
     "urlInputSuffix": "/apps/news/",
